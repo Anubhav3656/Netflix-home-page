@@ -1,0 +1,89 @@
+body{
+    background-image: url('bg1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+
+.left{
+    color:red;
+    font-size:2em;
+    position: absolute;
+    display: inline-block;
+     
+    
+}
+.left p{
+    margin-top: 0px
+}
+.right{
+    text-align: right;
+    display:block;
+    
+}
+
+
+.right a{
+    border:2px solid black;
+    background-color: red;
+    font-size:1.6em;
+    color:white;
+    text-align: right;
+    
+}
+.right a :hover{
+    background-color: black;
+}
+.center{
+    color:white;
+    font-size: 3em;
+    margin-left: 600px ;
+    margin-bottom: 20px ;
+    margin-top: 280px ;
+}
+.center1{
+    color:white;
+    font-size: 1em;
+    margin-bottom: 40px ;
+   margin-top: -20px ;
+   margin-left: 620px 
+
+
+}
+.ram{
+    margin-top:20px;
+    margin-bottom:40px;
+}
+.r1{
+    margin-bottom: 10px;
+}
+.r2{
+    
+   margin-left: 40px 
+}
+.r3{
+   
+    margin-left: 600px;
+}
+.r4{
+    color:grey;
+    font-size:1.2em;
+    padding-bottom: 0px ;
+   height: 30px;
+   width: 350px;
+   margin-left: 20px;
+   
+}
+
+.r5{
+    background-color: red;
+    font-size: 1.2em;
+    color:white;
+
+}
+.second{
+    background-color: grey;
+}
