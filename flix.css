@@ -1,19 +1,22 @@
-body{
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#first,#second{
     background-image: url('bg1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
-
+    height: 100vh; 
 }
 
 
 .left{
     color:red;
-    font-size:2em;
+    font-size:2.5em;
     position: absolute;
     display: inline-block;
-     
+     padding-left: 10px;
     
 }
 .left p{
@@ -22,16 +25,18 @@ body{
 .right{
     text-align: right;
     display:block;
+    text-decoration: none;
     
 }
 
 
-.right a{
+.right li a{
     border:2px solid black;
     background-color: red;
     font-size:1.6em;
     color:white;
     text-align: right;
+    text-decoration: none;
     
 }
 .right a :hover{
@@ -68,6 +73,10 @@ body{
    
     margin-left: 600px;
 }
+.r3 a{
+    color:white;
+    text-decoration: none;
+}
 .r4{
     color:grey;
     font-size:1.2em;
@@ -75,6 +84,7 @@ body{
    height: 30px;
    width: 350px;
    margin-left: 20px;
+   border:1px solid black;
    
 }
 
@@ -82,5 +92,149 @@ body{
     background-color: red;
     font-size: 1.2em;
     color:white;
+    border:1px solid black;
+    height: 35px !important;
+    width: 102px !important;
+}
+
+#third{
+    background-color: rgb(35, 34, 34);
+}
+.middle{
+    font-size:3.5em;
+    padding-top: 320px !important;
+    padding-left: 650px !important;
+    padding-bottom: 60px;
 
 }
+.user1 img{
+    
+    display: inline-block;
+    border-radius: 20px;
+}
+.user1{
+    padding-left: 300px ;
+    padding-top: 20px ;
+    color: grey;
+    font-size: 1.5em;
+    padding-bottom: 400px;
+    display: inline-block;
+    
+}
+.user2 img{
+    width:204px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.user2{
+    color:grey;
+    display: inline-block;
+    font-size: 1.5em;
+    padding-left: 40px;
+}
+.user3 img,.user4 img,.user5 img{
+    width:204px;
+    height: 192px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.user3, .user4,.user5{
+    color:grey;
+    display: inline-block;
+    font-size: 1.5em;
+    padding-left: 20px;
+}
+.user3 a img:hover ,.user1 a img:hover ,.user2 a img:hover,
+  .user4 a img:hover ,.user5 a img:hover {
+    border:2px solid rgb(244, 242, 242);
+    border-radius: 20px;
+}
+.log{
+    background-image: url('black.jpeg');
+    opacity: 0.8;
+    width: 500px !important;
+    height: 550px !important;
+    margin-left: 630px !important;
+    margin-right: 400px !important;
+}
+.leftt{
+    color:red;
+    font-size:2.5em;
+    margin-bottom: 200px;
+    padding-left:20px;
+    
+}
+.rem{
+    font-size: 2em;
+    color:rgb(252, 244, 244);
+    padding-left: 20px ;
+    padding-top: 30px ;
+}
+.s4{
+    color:solid white;
+    background-color: rgb(27, 27, 27);
+    width: 400px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 1.2em;
+}
+.s5{
+    color:solid white;
+    background-color: rgb(27, 27, 27);
+    width: 400px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+.s6{
+    background-color:  red;
+    color: white;
+    width: 400px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    border: none;
+
+}
+.s6 a{
+    color:white;
+    text-decoration: none;
+}
+#remember{
+    color:grey;
+    margin-left: 45px !important;
+    margin-top: 20px !important;
+}
+#remembe{
+    color:grey;
+    margin-top: 20px !important;
+}
+#need{
+    color:grey;
+    margin-top:20px;
+    margin-left: 210px !important;
+}
+.s1 p{
+    color: grey;
+    margin-top: 120px !important;
+    margin-left: 40px !important;
+    }
+
+#ne {
+    color:white;
+    text-decoration: none;
+}
+.s1 a:hover{
+    text-decoration: underline;
+}
+.s1 p a:hover{
+    text-decoration: underline;
+}
+
+
+     
+
+
